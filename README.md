@@ -19,7 +19,7 @@ This Test Automation Framework is created using Java + Selenium Web Driver + Tes
 5. IDE [ Eclipse or IntelliJ IDEA ]
 
 # Getting Started
-1. Open the Git bash and clone the project using below command on the target directory: git clone https://github.com/yamjals/UpdatedAutomationTest.git
+1. Open the Git bash and clone the project using below command on the target directory: git clone https://github.com/yamjals/AutmationTest-KiwiSaver.git
 2. Clone and import the project as existing Maven project in any Java IDE. You can run the program using any IDE like Eclipse or IntelliJ or from Jenkins but ensure Maven plugin is available.
 3. There are 2 xml files    
    3a. TestNG.xml - This will run all the test sequentially and browser will close on every test complete.    
@@ -29,7 +29,7 @@ This Test Automation Framework is created using Java + Selenium Web Driver + Tes
 6. Run **mvn test** command to start the test (this command will clean, compile and run the test).
  
 # Screenshot:
-getScreenshot() is used to indicate driver to capture a screenshot and store it in '/TestKiwiSaverRetirementPlanUserStories/reports/' folder.
+getScreenshot() is used to indicate driver to capture a screenshot and store it in '/"user.dir"/reports/' folder.
 
 # Reporting:
-The framework produce index.html report. It resides in the same '/TestKiwiSaverRetirementPlanUserStories/reports/' folder. This gives the link to all the different components of the TestNG reports like Groups & Reporter Output. This will display detailed description of executions.
+The framework produce index.html report. It resides in the same '/"user.dir"/reports/' folder. This gives the link to all the different components of the TestNG reports like Groups & Reporter Output. This will display detailed description of executions.
