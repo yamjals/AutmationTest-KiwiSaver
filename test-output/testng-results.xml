@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-06T18:40:25 NZDT" name="Suite" finished-at="2020-12-06T18:41:54 NZDT" duration-ms="89651">
+    <groups>
+      <group name="UserStory2">
+        <method signature="ValidateRetirementPlanForEmployed.TestEmployed(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestUserStory2.ValidateRetirementPlanForEmployed@f78a47e]" name="TestEmployed" class="TestUserStory2.ValidateRetirementPlanForEmployed"/>
+      </group> <!-- UserStory2 -->
+    </groups>
+    <test started-at="2020-12-06T18:40:25 NZDT" name="Validate Current Age Info Message" finished-at="2020-12-06T18:40:43 NZDT" duration-ms="17949">
+      <class name="TestUserStory1.ValidateCurrentAgeInfoMessage">
+        <test-method is-config="true" signature="Initiaze()[pri:0, instance:TestUserStory1.ValidateCurrentAgeInfoMessage@7db12bb6]" started-at="2020-12-06T18:40:25 NZDT" name="Initiaze" finished-at="2020-12-06T18:40:35 NZDT" duration-ms="10417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiaze -->
+        <test-method signature="checkInfoButton()[pri:0, instance:TestUserStory1.ValidateCurrentAgeInfoMessage@7db12bb6]" started-at="2020-12-06T18:40:35 NZDT" name="checkInfoButton" finished-at="2020-12-06T18:40:42 NZDT" duration-ms="6703" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.] but found [This calculator has an age limit of 18 to 64 years old.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.] but found [This calculator has an age limit of 18 to 64 years old.]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at TestUserStory1.ValidateCurrentAgeInfoMessage.checkInfoButton(ValidateCurrentAgeInfoMessage.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInfoButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestUserStory1.ValidateCurrentAgeInfoMessage@7db12bb6]" started-at="2020-12-06T18:40:42 NZDT" name="closeBrowser" finished-at="2020-12-06T18:40:43 NZDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestUserStory1.ValidateCurrentAgeInfoMessage -->
+    </test> <!-- Validate Current Age Info Message -->
+    <test started-at="2020-12-06T18:40:43 NZDT" name="Validate Info Icon present in all Fields" finished-at="2020-12-06T18:40:59 NZDT" duration-ms="16179">
+      <class name="TestUserStory1.ValidateInfoIconPresentForFields">
+        <test-method is-config="true" signature="Initiaze()[pri:0, instance:TestUserStory1.ValidateInfoIconPresentForFields@1ffaf86]" started-at="2020-12-06T18:40:43 NZDT" name="Initiaze" finished-at="2020-12-06T18:40:53 NZDT" duration-ms="9649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiaze -->
+        <test-method signature="checkInfoIcon()[pri:1, instance:TestUserStory1.ValidateInfoIconPresentForFields@1ffaf86]" started-at="2020-12-06T18:40:53 NZDT" name="checkInfoIcon" finished-at="2020-12-06T18:40:59 NZDT" duration-ms="5909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInfoIcon -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestUserStory1.ValidateInfoIconPresentForFields@1ffaf86]" started-at="2020-12-06T18:40:59 NZDT" name="closeBrowser" finished-at="2020-12-06T18:40:59 NZDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestUserStory1.ValidateInfoIconPresentForFields -->
+    </test> <!-- Validate Info Icon present in all Fields -->
+    <test started-at="2020-12-06T18:40:59 NZDT" name="Validate Retirement Plan for Employed Status" finished-at="2020-12-06T18:41:17 NZDT" duration-ms="17831">
+      <class name="TestUserStory2.ValidateRetirementPlanForEmployed">
+        <test-method is-config="true" signature="Initiaze()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForEmployed@f78a47e]" started-at="2020-12-06T18:40:59 NZDT" name="Initiaze" finished-at="2020-12-06T18:41:10 NZDT" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiaze -->
+        <test-method signature="TestEmployed(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestUserStory2.ValidateRetirementPlanForEmployed@f78a47e]" started-at="2020-12-06T18:41:10 NZDT" name="TestEmployed" data-provider="getDataEmployed" finished-at="2020-12-06T18:41:16 NZDT" duration-ms="6835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Employed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[82000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEmployed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForEmployed@f78a47e]" started-at="2020-12-06T18:41:17 NZDT" name="closeBrowser" finished-at="2020-12-06T18:41:17 NZDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestUserStory2.ValidateRetirementPlanForEmployed -->
+    </test> <!-- Validate Retirement Plan for Employed Status -->
+    <test started-at="2020-12-06T18:41:17 NZDT" name="Validate Retirement Plan for Not employed Status" finished-at="2020-12-06T18:41:35 NZDT" duration-ms="17393">
+      <class name="TestUserStory2.ValidateRetirementPlanForNotEmployed">
+        <test-method is-config="true" signature="Initiaze()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForNotEmployed@76a4ebf2]" started-at="2020-12-06T18:41:17 NZDT" name="Initiaze" finished-at="2020-12-06T18:41:27 NZDT" duration-ms="9621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiaze -->
+        <test-method signature="TestNotEmployed(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestUserStory2.ValidateRetirementPlanForNotEmployed@76a4ebf2]" started-at="2020-12-06T18:41:27 NZDT" name="TestNotEmployed" data-provider="getDataNotEmployed" finished-at="2020-12-06T18:41:34 NZDT" duration-ms="7023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Not employed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[140000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Annually]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNotEmployed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForNotEmployed@76a4ebf2]" started-at="2020-12-06T18:41:35 NZDT" name="closeBrowser" finished-at="2020-12-06T18:41:35 NZDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestUserStory2.ValidateRetirementPlanForNotEmployed -->
+    </test> <!-- Validate Retirement Plan for Not employed Status -->
+    <test started-at="2020-12-06T18:41:35 NZDT" name="Validate Retirement Plan for Self Employed Status" finished-at="2020-12-06T18:41:54 NZDT" duration-ms="19466">
+      <class name="TestUserStory2.ValidateRetirementPlanForSelfEmployed">
+        <test-method is-config="true" signature="Initiaze()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForSelfEmployed@4b741d6d]" started-at="2020-12-06T18:41:35 NZDT" name="Initiaze" finished-at="2020-12-06T18:41:46 NZDT" duration-ms="11477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiaze -->
+        <test-method signature="TestSelfEmployed(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestUserStory2.ValidateRetirementPlanForSelfEmployed@4b741d6d]" started-at="2020-12-06T18:41:46 NZDT" name="TestSelfEmployed" data-provider="getDataSelfEmployed" finished-at="2020-12-06T18:41:54 NZDT" duration-ms="7282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Self-employed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fortnightly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[290000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSelfEmployed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestUserStory2.ValidateRetirementPlanForSelfEmployed@4b741d6d]" started-at="2020-12-06T18:41:54 NZDT" name="closeBrowser" finished-at="2020-12-06T18:41:54 NZDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestUserStory2.ValidateRetirementPlanForSelfEmployed -->
+    </test> <!-- Validate Retirement Plan for Self Employed Status -->
+  </suite> <!-- Suite -->
+</testng-results>

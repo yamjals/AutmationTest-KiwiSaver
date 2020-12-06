@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.252 s <<< FAILURE! - in TestSuite
+TestUserStory1.ValidateCurrentAgeInfoMessage.checkInfoButton  Time elapsed: 8.664 s  <<< FAILURE!
+java.lang.AssertionError: expected [This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver.] but found [This calculator has an age limit of 18 to 64 years old.]
+	at TestUserStory1.ValidateCurrentAgeInfoMessage.checkInfoButton(ValidateCurrentAgeInfoMessage.java:65)
+

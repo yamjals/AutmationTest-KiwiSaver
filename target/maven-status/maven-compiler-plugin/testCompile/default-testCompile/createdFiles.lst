@@ -1,0 +1,5 @@
+TestUserStory1\ValidateCurrentAgeInfoMessage.class
+TestUserStory2\ValidateRetirementPlanForNotEmployed.class
+TestUserStory1\ValidateInfoIconPresentForFields.class
+TestUserStory2\ValidateRetirementPlanForSelfEmployed.class
+TestUserStory2\ValidateRetirementPlanForEmployed.class
